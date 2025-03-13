@@ -16,13 +16,18 @@
     <l10n filenamePrefix="l10n/l10n" />
 
     <extraSourceFiles>
+        <sourceFile filename="scripts/gui/InGameMenuContractsFrame.lua" />
         <sourceFile filename="scripts/vehicules/specializations/AIModeSelection.lua" />
     </extraSourceFiles>
 
     <actions>
+        <action name="EASYWORKER_MENU_START_FIELDWORK" category="VEHICLE"/>
 		<action name="EASYWORKER_OPEN_AI_SCREEN" category="VEHICLE"/>
 	</actions>
     <inputBinding>
+        <actionBinding action="EASYWORKER_MENU_START_FIELDWORK">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_k" />
+        </actionBinding>
         <actionBinding action="EASYWORKER_OPEN_AI_SCREEN">
             <binding device="KB_MOUSE_DEFAULT" input="KEY_j" />
         </actionBinding>

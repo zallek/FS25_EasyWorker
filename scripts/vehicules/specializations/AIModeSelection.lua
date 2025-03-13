@@ -16,7 +16,7 @@ function EW_AIModeSelection.updateActionEvents(self)
 	local spec = self.spec_aiModeSelection
 	local actionEvent = spec.actionEvents[InputAction.EASYWORKER_OPEN_AI_SCREEN]
 	if actionEvent ~= nil and self.isActiveForInputIgnoreSelectionIgnoreAI then
-		g_inputBinding:setActionEventText(actionEvent.actionEventId, g_i18n:getText("input_EASYWORKER_OPEN_AI_SCREEN"))
+		g_inputBinding:setActionEventText(actionEvent.actionEventId, g_i18n:getText("action_open_ai_screen"))
 		g_inputBinding:setActionEventTextPriority(actionEvent.actionEventId, GS_PRIO_HIGH)
 		g_inputBinding:setActionEventActive(actionEvent.actionEventId, self:getCanToggleAIVehicle())
 	end
