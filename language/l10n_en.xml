@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+	<texts>
+		<!-- KEY BINDINGS -->
+		<text name="input_EASYWORKER_OPEN_AI_SCREEN" text="Open worker dialog"/>
+    </texts>
+</l10n>

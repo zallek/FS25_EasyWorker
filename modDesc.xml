@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="95">
+    <author>zallek</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Easy Worker</en>
+        <fr>Easy Worker</fr>
+    </title>
+    <description>
+        <en>Adds a keyboard shortcut (default: j) to quickly open the task creation menu for the currently driven vehicle.</en>
+        <fr>Ajoute un raccourci clavier (par défaut: j) pour ouvrir rapidement le menu de création de tâche pour le véhicule actuellement conduit.</fr>
+    </description>
+    <iconFilename>icon_EasyWorker.dds</iconFilename>
+    <multiplayer supported="true"/>
+    
+    <l10n filenamePrefix="language/l10n" />
+
+    <extraSourceFiles>
+        <sourceFile filename="scripts/vehicules/specializations/AIModeSelection.lua" />
+    </extraSourceFiles>
+
+    <actions>
+		<action name="EASYWORKER_OPEN_AI_SCREEN" category="VEHICLE"/>
+	</actions>
+    <inputBinding>
+        <actionBinding action="EASYWORKER_OPEN_AI_SCREEN">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_j" />
+        </actionBinding>
+    </inputBinding>
+</modDesc>
