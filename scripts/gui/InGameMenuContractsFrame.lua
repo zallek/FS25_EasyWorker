@@ -18,7 +18,10 @@ function EW_InGameMenuContractsFrame.setButtonsForState(self, state, canLease)
     local buttons = self.menuButtonInfo
     if state == InGameMenuContractsFrame.BUTTON_STATE.ACTIVE then
         table.insert(buttons, self.startFieldWorkButtonInfo)
-        self.startFieldWorkButtonInfo.disabled = not g_localPlayer.getIsInVehicle()
+        local vehicule = g_localPlayer.getCurrentVehicle()
+        local hasPermission = g_currentMission:getHasPlayerPermission("hireAssistant")
+        local isAvailable = vehicule and AIJobFieldWork:getIsAvailableForVehicle(vehicule) and not vehicule:getIsAIActive()
+        self.startFieldWorkButtonInfo.disabled = not hasPermission or not isAvailable
     end
     self.menuButtonInfo = buttons
     self:setMenuButtonInfoDirty()
@@ -45,7 +48,6 @@ function EW_InGameMenuContractsFrame.onButtonStartFieldWork(self)
 	job:setValues()
 	local isValid, error = job:validate(g_localPlayer.farmId)
 	if isValid then
-        -- g_client:getServerConnection():sendEvent(AIJobStartRequestEvent.new(job, g_localPlayer.farmId))
         g_inGameMenu:openMapOverview()
         g_inGameMenu.pageMapOverview:tryStartJob(job, g_localPlayer.farmId, function(success)
             if success then
