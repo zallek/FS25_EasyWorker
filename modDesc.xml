@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="95">
+<modDesc descVersion="96">
     <author>zallek</author>
     <version>1.0.0.0</version>
     <title>
         <en>Easy Worker</en>
-        <fr>Easy Worker</fr>
     </title>
     <description>
 <en><![CDATA[This mod enhances the AI worker system with quality of life improvements.
@@ -16,6 +15,15 @@ Features:
 For feedback and bug reports, visit: https://github.com/zallek/FS25_EasyWorker
 ]]>
 </en>
+<de><![CDATA[Dieser Mod verbessert das KI-Arbeiter-System mit Komfortfunktionen.
+
+Funktionen:
+- Schneller Zugriff auf das KI-Arbeiter-Menü von jedem Fahrzeug aus mit der "J"-Taste (anpassbar)
+- Direkte Einstellung von KI-Arbeitern über das Vertragsmenü
+
+Für Feedback und Fehlermeldungen besuchen Sie: https://github.com/zallek/FS25_EasyWorker
+]]>
+</de>
 <fr><![CDATA[Ce mod améliore le système des travailleurs IA avec des fonctionnalités de confort.
 
 Fonctionnalités :
