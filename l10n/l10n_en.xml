@@ -2,6 +2,6 @@
 <l10n>
 	<texts>
 		<!-- KEY BINDINGS -->
-		<text name="input_EASYWORKER_OPEN_AI_SCREEN" text="Open worker dialog"/>
+		<text name="input_EASYWORKER_OPEN_AI_SCREEN" text="Open worker menu"/>
     </texts>
 </l10n>

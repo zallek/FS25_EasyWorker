@@ -13,7 +13,7 @@
     <iconFilename>icon_EasyWorker.dds</iconFilename>
     <multiplayer supported="true"/>
     
-    <l10n filenamePrefix="language/l10n" />
+    <l10n filenamePrefix="l10n/l10n" />
 
     <extraSourceFiles>
         <sourceFile filename="scripts/vehicules/specializations/AIModeSelection.lua" />
