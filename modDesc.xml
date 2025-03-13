@@ -7,8 +7,24 @@
         <fr>Easy Worker</fr>
     </title>
     <description>
-        <en>Adds a keyboard shortcut (default: j) to quickly open the task creation menu for the currently driven vehicle.</en>
-        <fr>Ajoute un raccourci clavier (par défaut: j) pour ouvrir rapidement le menu de création de tâche pour le véhicule actuellement conduit.</fr>
+<en><![CDATA[This mod enhances the AI worker system with quality of life improvements.
+
+Features:
+- Quick access to AI worker menu from any vehicle using the "J" key (customizable)
+- Direct AI worker hiring through the contracts menu
+
+For feedback and bug reports, visit: https://github.com/zallek/FS25_EasyWorker
+]]>
+</en>
+<fr><![CDATA[Ce mod améliore le système des travailleurs IA avec des fonctionnalités de confort.
+
+Fonctionnalités :
+- Accès rapide au menu des travailleurs IA depuis n'importe quel véhicule avec la touche "J" (personnalisable)
+- Embauche directe des travailleurs IA via le menu des contrats
+
+Pour les retours et signalements de bugs, visitez : https://github.com/zallek/FS25_EasyWorker
+]]>
+</fr>
     </description>
     <iconFilename>icon_EasyWorker.dds</iconFilename>
     <multiplayer supported="true"/>
