@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <modDesc descVersion="96">
     <author>zallek</author>
     <version>1.0.0.0</version>
@@ -6,7 +6,7 @@
         <en>Easy Worker</en>
     </title>
     <description>
-<en><![CDATA[This mod enhances the AI worker system with quality of life improvements.
+        <en><![CDATA[This mod enhances the AI worker system with quality of life improvements.
 
 Features:
 - Quick access to AI worker menu from any vehicle using the "J" key (customizable)
@@ -15,7 +15,7 @@ Features:
 For feedback and bug reports, visit: https://github.com/zallek/FS25_EasyWorker
 ]]>
 </en>
-<de><![CDATA[Dieser Mod verbessert das KI-Arbeiter-System mit Komfortfunktionen.
+        <de><![CDATA[Dieser Mod verbessert das KI-Arbeiter-System mit Komfortfunktionen.
 
 Funktionen:
 - Schneller Zugriff auf das KI-Arbeiter-Menü von jedem Fahrzeug aus mit der "J"-Taste (anpassbar)
@@ -24,7 +24,7 @@ Funktionen:
 Für Feedback und Fehlermeldungen besuchen Sie: https://github.com/zallek/FS25_EasyWorker
 ]]>
 </de>
-<fr><![CDATA[Ce mod améliore le système des travailleurs IA avec des fonctionnalités de confort.
+        <fr><![CDATA[Ce mod améliore le système des travailleurs IA avec des fonctionnalités de confort.
 
 Fonctionnalités :
 - Accès rapide au menu des travailleurs IA depuis n'importe quel véhicule avec la touche "J" (personnalisable)
@@ -35,8 +35,8 @@ Pour les retours et signalements de bugs, visitez : https://github.com/zallek/FS
 </fr>
     </description>
     <iconFilename>icon_EasyWorker.dds</iconFilename>
-    <multiplayer supported="true"/>
-    
+    <multiplayer supported="true" />
+
     <l10n filenamePrefix="l10n/l10n" />
 
     <extraSourceFiles>
@@ -45,9 +45,9 @@ Pour les retours et signalements de bugs, visitez : https://github.com/zallek/FS
     </extraSourceFiles>
 
     <actions>
-        <action name="EASYWORKER_MENU_START_FIELDWORK" category="VEHICLE"/>
-		<action name="EASYWORKER_OPEN_AI_SCREEN" category="VEHICLE"/>
-	</actions>
+        <action name="EASYWORKER_MENU_START_FIELDWORK" category="VEHICLE" />
+        <action name="EASYWORKER_OPEN_AI_SCREEN" category="VEHICLE" />
+    </actions>
     <inputBinding>
         <actionBinding action="EASYWORKER_MENU_START_FIELDWORK">
             <binding device="KB_MOUSE_DEFAULT" input="KEY_k" />

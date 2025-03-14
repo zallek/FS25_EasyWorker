@@ -43,20 +43,20 @@ function EW_InGameMenuContractsFrame.onButtonStartFieldWork(self)
 
     local job = g_currentMission.aiJobTypeManager:createJob(AIJobType.FIELDWORK)
     job.vehicleParameter:setVehicle(vehicule)
-	job.positionAngleParameter:setPosition(field.posX, field.posZ)
-	job.positionAngleParameter:setAngle(0)
-	job:setValues()
-	local isValid, error = job:validate(g_localPlayer.farmId)
-	if isValid then
+    job.positionAngleParameter:setPosition(field.posX, field.posZ)
+    job.positionAngleParameter:setAngle(0)
+    job:setValues()
+    local isValid, error = job:validate(g_localPlayer.farmId)
+    if isValid then
         g_inGameMenu:openMapOverview()
         g_inGameMenu.pageMapOverview:tryStartJob(job, g_localPlayer.farmId, function(success)
             if success then
             end
         end)
-	else
-		InfoDialog.show(tostring(error), nil, nil, DialogElement.TYPE_WARNING)
-		return false
-	end
+    else
+        InfoDialog.show(tostring(error), nil, nil, DialogElement.TYPE_WARNING)
+        return false
+    end
 end
 
 InGameMenuContractsFrame.onButtonStartFieldWork = EW_InGameMenuContractsFrame.onButtonStartFieldWork

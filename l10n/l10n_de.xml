@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <l10n>
 	<texts>
 		<!-- ACTIONS -->
-		<text name="action_open_ai_screen" text="Arbeitermenü öffnen"/>
+		<text name="action_open_ai_screen" text="Arbeitermenü öffnen" />
 		<!-- BUTTONS -->
-		<text name="button_start_fieldwork" text="Feldarbeit starten"/>
+		<text name="button_start_fieldwork" text="Feldarbeit starten" />
 		<!-- KEY BINDINGS -->
-		<text name="input_EASYWORKER_OPEN_AI_SCREEN" text="Arbeitermenü öffnen"/>
-		<text name="input_EASYWORKER_MENU_START_FIELDWORK" text="Feldarbeit starten"/>
-    </texts>
+		<text name="input_EASYWORKER_OPEN_AI_SCREEN" text="Arbeitermenü öffnen" />
+		<text name="input_EASYWORKER_MENU_START_FIELDWORK" text="Feldarbeit starten" />
+	</texts>
 </l10n>
